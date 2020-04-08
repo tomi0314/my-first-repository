@@ -1,0 +1,83 @@
+img {
+  width: 100%;
+}
+.container {
+  position: relative;
+  text-align: left;
+  color: black;
+  font-family: "Abril Fatface", cursive;
+  margin-bottom: 50px;
+}
+.header {
+  position: absolute;
+  left: 375px;
+  bottom: 50px;
+  color: #222222;
+  line-height: 60px;
+}
+.myname {
+  font-size: 40px;
+}
+.anakin {
+  font-size: 70px;
+}
+main {
+  margin: 0 375px 0;
+  font-size: 20px;
+  font-family: "Josefin Sans", sans-serif;
+  color: #222222;
+  line-height: 170%;
+  width: 750px;
+}
+blockquote {
+  position: relative;
+  color: white;
+  background: #444444;
+  width: 750px;
+  padding: 50px;
+  font-family: "Abril Fatface", cursive;
+  font-size: 50px;
+  line-height: 160%;
+  text-align: left;
+  margin: 50px -50px 50px -50px;
+}
+blockquote::before {
+  content: "\201C";
+  position: absolute;
+  top: 25px;
+  left: 2px;
+  font-size: 150px;
+}
+h1 {
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+h2 {
+  padding: 0px;
+  margin-bottom: 0px;
+  line-height: 35px;
+}
+h3 {
+  font-family: "Merriweather";
+  font-size: 15px;
+  font-style: italic;
+  line-height: 1%;
+  margin-bottom: 30px;
+}
+.line {
+  height: 5px;
+  width: 750px;
+  color: black;
+  border-top: 4px solid;
+  border-bottom: 4px solid;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.footer {
+  display: flex;
+  justify-content: flex-start;
+  color: black;
+  position: relative;
+  bottom: 10px;
+}

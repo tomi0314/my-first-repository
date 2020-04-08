@@ -1,0 +1,118 @@
+body {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+}
+header  {
+  background: black;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  max-width: 800px;
+  width: 100%;
+}
+nav  {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 600px;
+  height: 50px;
+  padding: 0;
+  margin:auto;
+  font-size:30px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  color: #ffcc24
+}
+#bio .left:before{
+  content:"";
+  display: block;
+  background-image: url("https://cdn-media.planete-starwars.com/news/71624-hayden-christensen-169-lg.jpg?w=768");
+  background-size: cover;
+  padding-top: 200px;
+  background-position: center center;
+  height: 200px;
+  filter: contrast(4) opacity(0.5) brightness(50%);
+}
+h1 {
+  font-family: 'Abril Fatface', cursive;
+  color: #222;
+  font-size: 70px;
+  margin: 0 auto;
+  line-height: 60px;
+  position: absolute;
+  bottom: 45px;
+  left: 50px;
+}
+h1 span {
+  font-size: 35px;
+}
+h2{
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+  text-transform: uppercase;
+  margin: 0px 0;
+}
+h3{
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+  font-size:25px;
+  margin: 50px 0 30px 0;
+  line-height: 40px;
+}
+h4{
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+  color: #222;
+  margin-top: -35px;
+}
+p{
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+  line-height: 30px;
+}
+li{
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+  line-height: 25px;
+  
+}
+blockquote {
+  font-family: 'Abril Fatface', cursive;
+  color: white;
+  font-size: 50px;
+  background: #555;
+  display: inline-block;
+  padding: 50px;
+  position: relative;
+  margin: 0;
+}
+blockquote:before {
+  content:"\201C";
+  position: absolute;
+  top: -36px;
+  left: 5px;
+  font-size: 150px;
+}
+section {
+  display: flex;
+  padding-top: 50px;
+}
+.left {
+  flex-grow: 2;
+  flex-shrink: 0;
+  flex-basis: 40%;
+}
+.right {
+  flex-grow:3;
+  margin: 30px;
+}
+#bio .left{
+  position: relative;
+}

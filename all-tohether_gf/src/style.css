@@ -1,0 +1,46 @@
+div {
+  display: block;
+  width: 600px;
+  height: 800px;
+}
+section {
+  display: flex;
+}
+header {
+  width: 600px;
+  height: 100px;
+  background: aqua;
+}
+
+.orange {
+  background: orange;
+  width: 100px;
+  height: 600px;
+  margin-right: 20px;
+}
+main {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background: red;
+  width: 360px;
+  height: 600px;
+  margin: 0px 0px 0px 0px;
+}
+p {
+  background: black;
+  width: 50px;
+  height: 50px;
+  margin: 20px;
+}
+.purple {
+  background: purple;
+  width: 100px;
+  height: 600px;
+  margin-left: 20px;
+}
+footer {
+  background: blue;
+  width: 600px;
+  height: 100px;
+}

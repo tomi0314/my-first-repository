@@ -1,0 +1,21 @@
+main {
+  width: 350px;
+}
+h1 {
+  color: #ff7f50;
+}
+h2 {
+  color: #8a2be2;
+}
+ul {
+  list-style-type: square;
+}
+ol {
+  list-style-type: upper-roman;
+  list-style-position: outside;
+}
+
+.I {
+  text-decoration: underline;
+  color: #8b008b;
+}
